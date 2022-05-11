@@ -4,14 +4,31 @@ body{
     font-family: 'Courier New', Courier, monospace;
     color: black;
 }
+#cabecera{
+    background: skyblue;
+    text-align: left;
+    font-size: 20px;
+    margin: 0;
+    padding: 0.5em;
+    font-weight: bold;
+    box-shadow: 0px 5px 30px 0px rgba(0,0,0,0.5);
+}
+#cabecera #tagline{
+    font-weight: bold;
+    font-size: 10px;
+    margin: 0 0 0 0;
+}
 #container{
     width: 70%;
     background: palegoldenrod;
     text-align: left;
     border-radius: 10px;
     border: 1px solid gainsboro;
-    padding: 10px;
+    overflow: hidden;
 }
 #container h1{
     font-size: 20px;
+}
+#post{
+    padding: 1em;
 }
