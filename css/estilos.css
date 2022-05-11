@@ -1,5 +1,17 @@
 body{
-    text-align: center;
+    display: flex;
+    justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
-    color: blueviolet;
+    color: black;
+}
+#container{
+    width: 70%;
+    background: palegoldenrod;
+    text-align: left;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+    padding: 10px;
+}
+#container h1{
+    font-size: 20px;
 }
